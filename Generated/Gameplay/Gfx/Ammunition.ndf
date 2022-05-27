@@ -31939,7 +31939,7 @@ export Ammo_MW1_dispenser is TAmmunitionDescriptor
     TempsEntreDeuxTirs_Min             = -1.0
     TempsEntreDeuxTirs_Max             = -1.0
     TempsEntreDeuxFx                  = 0.08
-    PorteeMaximale                    = ((3000) * Metre)   // original 1995
+    PorteeMaximale                    = ((3300) * Metre)   // original 1995
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
