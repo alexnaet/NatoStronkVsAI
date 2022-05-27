@@ -42789,8 +42789,8 @@ export Ammo_RocketInf_PzF_3 is TAmmunitionDescriptor
 
     TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 3.0
-    TempsEntreDeuxSalves_Min           = -1.0
-    TempsEntreDeuxSalves_Max           = -1.0
+    TempsEntreDeuxSalves_Min          = 2.0
+    TempsEntreDeuxSalves_Max          = 4.0
     NbTirParSalves                    = 1
     SupplyCost                        = 210
     CanShootOnPosition                = False
@@ -42892,8 +42892,8 @@ export Ammo_RocketInf_PzF_44 is TAmmunitionDescriptor
 
     TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 6.0
-    TempsEntreDeuxSalves_Min           = -1.0
-    TempsEntreDeuxSalves_Max           = -1.0
+    TempsEntreDeuxSalves_Min           = 4.0
+    TempsEntreDeuxSalves_Max           = 7.0
     NbTirParSalves                    = 1
     SupplyCost                        = 140
     CanShootOnPosition                = False

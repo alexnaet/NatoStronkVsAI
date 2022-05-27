@@ -523,6 +523,7 @@ Weapons_F4_Wild_Weasel_US is MAP
 [
     ( [ "weapon_effet_tag2" ], Weapon_F4_Wild_Weasel_US_weapon2 ),
     ( [ "weapon_effet_tag3" ], Weapon_F4_Wild_Weasel_US_weapon3 ),
+    ( [ "weapon_effet_tag4" ], Weapon_F4_Wild_Weasel_US_weapon4 ),
 ]
 
 Weapons_G91_R3_Gina_HE_RFA is MAP

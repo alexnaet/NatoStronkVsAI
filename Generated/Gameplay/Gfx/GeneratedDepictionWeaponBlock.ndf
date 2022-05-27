@@ -5009,16 +5009,24 @@ private Weapon_F4_Wild_Weasel_US_weapon2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXWeapon_AGM_AGM45_Shrike,
-        SFXWeapon_AGM_AGM45_Shrike
+        FXWeapon_AA_AIM9J_Sidewinder,
+        SFXWeapon_AA_AIM9J_Sidewinder
     ]
 )
 private Weapon_F4_Wild_Weasel_US_weapon3 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXWeapon_AA_AIM9J_Sidewinder,
-        SFXWeapon_AA_AIM9J_Sidewinder
+        FXWeapon_AGM_AGM88_HARM,
+        SFXWeapon_AGM_AGM88_HARM
+    ]
+)
+private Weapon_F4_Wild_Weasel_US_weapon4 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXWeapon_AGM_AGM65B_Maverick,
+        SFXWeapon_AGM_AGM65B_Maverick
     ]
 )
 

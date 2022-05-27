@@ -8226,6 +8226,7 @@ export Descriptor_ShowRoomUnit_Fallschirm_RFA is TEntityDescriptor
                                         (0,[1,2,3,4,5,6,7,]),
                                         (1,[0,]),
                                         (2,[7,]),
+                                        (3,[6,]),
                                       ]
             InitialSoldiersToTurretIndexMap = MAP[
                                         (0,[1,]),
@@ -8234,10 +8235,10 @@ export Descriptor_ShowRoomUnit_Fallschirm_RFA is TEntityDescriptor
                                         (3,[0,]),
                                         (4,[0,]),
                                         (5,[0,]),
-                                        (6,[0,]),
+                                        (6,[0,3,]),
                                         (7,[0,2,]),
                                       ]
-            TurretWithOnlyOneSoldier = [1,2,]
+            TurretWithOnlyOneSoldier = [1,]
         ),
 
         // LinkTeam
@@ -20859,6 +20860,7 @@ export Descriptor_ShowRoomUnit_Panzergrenadier_APC_RFA is TEntityDescriptor
                                         (0,[1,2,3,4,5,6,7,8,]),
                                         (1,[0,]),
                                         (2,[8,]),
+                                        (3,[7,]),
                                       ]
             InitialSoldiersToTurretIndexMap = MAP[
                                         (0,[1,]),
@@ -20868,10 +20870,10 @@ export Descriptor_ShowRoomUnit_Panzergrenadier_APC_RFA is TEntityDescriptor
                                         (4,[0,]),
                                         (5,[0,]),
                                         (6,[0,]),
-                                        (7,[0,]),
+                                        (7,[0,3,]),
                                         (8,[0,2,]),
                                       ]
-            TurretWithOnlyOneSoldier = [1,2,]
+            TurretWithOnlyOneSoldier = [1,]
         ),
 
         // LinkTeam
@@ -21955,6 +21957,7 @@ export Descriptor_ShowRoomUnit_Rifles_LAW_US is TEntityDescriptor
                                         (0,[3,4,5,6,7,8,9,10,]),
                                         (1,[0,1,2,]),
                                         (2,[10,]),
+                                        (3,[9,]),
                                       ]
             InitialSoldiersToTurretIndexMap = MAP[
                                         (0,[1,]),
@@ -21966,10 +21969,10 @@ export Descriptor_ShowRoomUnit_Rifles_LAW_US is TEntityDescriptor
                                         (6,[0,]),
                                         (7,[0,]),
                                         (8,[0,]),
-                                        (9,[0,]),
+                                        (9,[0,3,]),
                                         (10,[0,2,]),
                                       ]
-            TurretWithOnlyOneSoldier = [2,]
+            TurretWithOnlyOneSoldier = [2,3,]
         ),
 
         // LinkTeam

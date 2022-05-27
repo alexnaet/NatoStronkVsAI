@@ -816,6 +816,18 @@ Weapon_Fallschirm_RFA_3_FX is TCompositeHappening
 )
 Weapon_Fallschirm_RFA_3_World is TIntroduceMobileHappening( Happening = Weapon_Fallschirm_RFA_3_FX )
 
+Weapon_Fallschirm_RFA_4_FiringFXAll is fx_tir_LAW_1_2
+Weapon_Fallschirm_RFA_4_ProjectileFXAll is fx_traine_LAW_1_2_False_00_00
+Weapon_Fallschirm_RFA_4_FX is TCompositeHappening
+(
+    SubHappenings = [
+        Weapon_Fallschirm_RFA_4_FiringFXAll,
+        Weapon_Fallschirm_RFA_4_ProjectileFXAll,
+        SFXWeapon_RocketInf_PzF_3
+    ]
+)
+Weapon_Fallschirm_RFA_4_World is TIntroduceMobileHappening( Happening = Weapon_Fallschirm_RFA_4_FX )
+
 Weapon_Fallschirmjager_CMD_DDR_1_FiringFXAll is fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_1_2
 Weapon_Fallschirmjager_CMD_DDR_1_ProjectileFXAll is TRandomHappening
 (
@@ -2552,6 +2564,18 @@ Weapon_Panzergrenadier_APC_RFA_3_FX is TCompositeHappening
 )
 Weapon_Panzergrenadier_APC_RFA_3_World is TIntroduceMobileHappening( Happening = Weapon_Panzergrenadier_APC_RFA_3_FX )
 
+Weapon_Panzergrenadier_APC_RFA_4_FiringFXAll is fx_tir_LAW_1_2
+Weapon_Panzergrenadier_APC_RFA_4_ProjectileFXAll is fx_traine_LAW_1_2_False_00_00
+Weapon_Panzergrenadier_APC_RFA_4_FX is TCompositeHappening
+(
+    SubHappenings = [
+        Weapon_Panzergrenadier_APC_RFA_3_FiringFXAll,
+        Weapon_Panzergrenadier_APC_RFA_3_ProjectileFXAll,
+        SFXWeapon_RocketInf_PzF_44
+    ]
+)
+Weapon_Panzergrenadier_APC_RFA_4_World is TIntroduceMobileHappening( Happening = Weapon_Panzergrenadier_APC_RFA_4_FX )
+
 Weapon_Panzergrenadier_CMD_RFA_1_FiringFXAll is fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_1_2
 Weapon_Panzergrenadier_CMD_RFA_1_ProjectileFXAll is TRandomHappening
 (
@@ -2937,6 +2961,18 @@ Weapon_Rifles_LAW_US_3_FX is TCompositeHappening
     ]
 )
 Weapon_Rifles_LAW_US_3_World is TIntroduceMobileHappening( Happening = Weapon_Rifles_LAW_US_3_FX )
+
+Weapon_Rifles_LAW_US_4_FiringFXAll is fx_tir_LAW_1_2
+Weapon_Rifles_LAW_US_4_ProjectileFXAll is fx_traine_LAW_1_2_False_00_00
+Weapon_Rifles_LAW_US_4_FX is TCompositeHappening
+(
+    SubHappenings = [
+        Weapon_Rifles_LAW_US_4_FiringFXAll,
+        Weapon_Rifles_LAW_US_4_ProjectileFXAll,
+        SFXWeapon_RocketInf_AT4_83mm
+    ]
+)
+Weapon_Rifles_LAW_US_4_World is TIntroduceMobileHappening( Happening = Weapon_Rifles_LAW_US_4_FX )
 
 Weapon_Rifles_US_1_FiringFXAll is fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_1_2
 Weapon_Rifles_US_1_ProjectileFXAll is TRandomHappening
