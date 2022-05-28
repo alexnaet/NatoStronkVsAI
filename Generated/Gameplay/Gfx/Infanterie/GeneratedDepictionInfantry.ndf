@@ -3974,6 +3974,7 @@ AllWeaponAlternatives_Rifles_US is [
   AlternativeWithId( SelectorId = ['MeshAlternative_1'] ModelFile = ModelFile_M16A2 ),
   AlternativeWithId( SelectorId = ['MeshAlternative_2'] ModelFile = ModelFile_M249 ),
   AlternativeWithId( SelectorId = ['MeshAlternative_3'] ModelFile = ModelFile_M47_DRAGON_II ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_4'] ModelFile = ModelFile_M72A4 ),
   AlternativeNone
 ]
 AllWeaponSubDepiction_Rifles_US is TemplateAllSubWeaponDepiction
@@ -3998,6 +3999,12 @@ AllWeaponSubDepiction_Rifles_US is TemplateAllSubWeaponDepiction
       FireEffectTag = ["Rifles_US", "weapon_effet_tag3" ]
       Anchors = ["fx_tir"]
       WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["Rifles_US", "weapon_effet_tag4" ]
+      Anchors = ["fx_tir"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_4"
     ),
   ]
 )
@@ -5230,6 +5237,7 @@ InfantryDistrictHappenings is MAP[
   ( ['Rifles_US', 'weapon_effet_tag1'], Weapon_Rifles_US_1_World ),
   ( ['Rifles_US', 'weapon_effet_tag2'], Weapon_Rifles_US_2_World ),
   ( ['Rifles_US', 'weapon_effet_tag3'], Weapon_Rifles_US_3_World ),
+  ( ['Rifles_US', 'weapon_effet_tag4'], Weapon_Rifles_US_4_World ),
   ( ['Rifles_half_AT4_US', 'weapon_effet_tag1'], Weapon_Rifles_half_AT4_US_1_World ),
   ( ['Rifles_half_AT4_US', 'weapon_effet_tag2'], Weapon_Rifles_half_AT4_US_2_World ),
   ( ['Rifles_half_AT4_US', 'weapon_effet_tag3'], Weapon_Rifles_half_AT4_US_3_World ),

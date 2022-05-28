@@ -41655,8 +41655,8 @@ export Ammo_RocketInf_AT4_83mm is TAmmunitionDescriptor
 
     TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 3.0
-    TempsEntreDeuxSalves_Min           = -1.0
-    TempsEntreDeuxSalves_Max           = -1.0
+    TempsEntreDeuxSalves_Min           = 2.0
+    TempsEntreDeuxSalves_Max           = 4.0
     NbTirParSalves                    = 1
     SupplyCost                        = 170
     CanShootOnPosition                = False
@@ -42686,8 +42686,8 @@ export Ammo_RocketInf_M72_LAW_66mm is TAmmunitionDescriptor
 
     TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 3.0
-    TempsEntreDeuxSalves_Min           = -1.0
-    TempsEntreDeuxSalves_Max           = -1.0
+    TempsEntreDeuxSalves_Min           = 1.0
+    TempsEntreDeuxSalves_Max           = 2.0
     NbTirParSalves                    = 1
     SupplyCost                        = 130
     CanShootOnPosition                = False

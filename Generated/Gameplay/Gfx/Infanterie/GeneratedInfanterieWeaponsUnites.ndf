@@ -3024,6 +3024,16 @@ Weapon_Rifles_US_3_FX is TCompositeHappening
 )
 Weapon_Rifles_US_3_World is TIntroduceMobileHappening( Happening = Weapon_Rifles_US_3_FX )
 
+Weapon_Rifles_US_4_FiringFXAll is fx_tir_LAW_1_2
+Weapon_Rifles_US_4_FX is TCompositeHappening
+(
+    SubHappenings = [
+        Weapon_Rifles_US_4_FiringFXAll,
+        SFXWeapon_RocketInf_M72_LAW_66mm
+    ]
+)
+Weapon_Rifles_US_4_World is TIntroduceMobileHappening( Happening = Weapon_Rifles_US_4_FX )
+
 Weapon_Rifles_half_AT4_US_1_FiringFXAll is fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_1_2
 Weapon_Rifles_half_AT4_US_1_ProjectileFXAll is TRandomHappening
 (
