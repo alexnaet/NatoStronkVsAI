@@ -49265,7 +49265,7 @@ export Ammo_AGM_AGM65B_Maverick is TAmmunitionDescriptor
     )
 
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 2.5
+    TempsEntreDeuxSalves              = 3.5
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
@@ -49367,7 +49367,7 @@ export Ammo_AGM_AGM88_HARM is TAmmunitionDescriptor
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
-    SupplyCost                        = 200
+    SupplyCost                        = 300
     CanShootOnPosition                = False
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
@@ -55332,7 +55332,7 @@ export Ammo_SAM_9M311_Tunguska_x8 is TAmmunitionDescriptor
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((12169) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
-    PorteeMaximaleHA                  = ((18112) * Metre)
+    PorteeMaximaleHA                  = ((18395) * Metre)
     PorteeMinimale                    = ((0) * Metre)
     AngleDispersion                   = 0.02
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -57836,7 +57836,7 @@ export Ammo_SAM_ROLAND_2_x2 is TAmmunitionDescriptor
     TempsEntreDeuxFx                  = 2.0
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
-    PorteeMaximaleTBA                 = ((9056) * Metre)
+    PorteeMaximaleTBA                 = ((9905) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
     PorteeMaximaleHA                  = ((11320) * Metre)
     PorteeMinimale                    = ((0) * Metre)
@@ -58223,9 +58223,9 @@ export Ammo_SAM_Strela1_x4 is TAmmunitionDescriptor
     TempsEntreDeuxFx                  = 2.0
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
-    PorteeMaximaleTBA                 = ((9056) * Metre)
+    PorteeMaximaleTBA                 = ((9905) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
-    PorteeMaximaleHA                  = ((8490) * Metre)
+    PorteeMaximaleHA                  = ((9905) * Metre)
     PorteeMinimale                    = ((0) * Metre)
     AngleDispersion                   = 0.02
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -58319,9 +58319,9 @@ export Ammo_SAM_Strela10_x4 is TAmmunitionDescriptor
     TempsEntreDeuxFx                  = 2.0
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
-    PorteeMaximaleTBA                 = ((9056) * Metre)
+    PorteeMaximaleTBA                 = ((11320) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
-    PorteeMaximaleHA                  = ((8490) * Metre)
+    PorteeMaximaleHA                  = ((11320) * Metre)
     PorteeMinimale                    = ((0) * Metre)
     AngleDispersion                   = 0.02
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -58353,7 +58353,7 @@ export Ammo_SAM_Strela10_x4 is TAmmunitionDescriptor
          BaseHitValueModifiers =
          [
              (EBaseHitValueModifier/Base, 0.0),
-             (EBaseHitValueModifier/Idling, 60),
+             (EBaseHitValueModifier/Idling, 55),
              (EBaseHitValueModifier/Moving, 50),
              (EBaseHitValueModifier/SuccessfulShots, 0.0),
              (EBaseHitValueModifier/Targeted, 0.0),

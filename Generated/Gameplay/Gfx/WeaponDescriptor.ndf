@@ -46956,9 +46956,9 @@ export WeaponDescriptor_F4_Wild_Weasel_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     NeedsExplicitOrderToUseSmoke = True
     Salves               = [
-        2,                      // Original 5 x Shrike, jetzt 2x AIM9L
-        2,                      // Original 2x AIM9J, jetzt 2x HARM
-        3,                      // Original nix, jetzt 3x Maveric 
+        2,                      // Original 5 x Shrike, jetzt 2x HARM
+        2,                      // Original 2x AIM9J, jetzt 2x AIM9L
+        2,                      // Original nix, jetzt 2x Maveric 
         -1,
         -1,
         -1
@@ -46982,7 +46982,7 @@ export WeaponDescriptor_F4_Wild_Weasel_US is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_AA_AIM9L_Sidewinder // ~/Ammo_AGM_AGM45_Shrike
+                    Ammunition                          = ~/Ammo_AGM_AGM88_HARM // ~/Ammo_AGM_AGM45_Shrike
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -47030,7 +47030,7 @@ export WeaponDescriptor_F4_Wild_Weasel_US is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_AGM_AGM88_HARM
+                    Ammunition                          = ~/Ammo_AA_AIM7M_Sparrow
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -47078,7 +47078,7 @@ export WeaponDescriptor_F4_Wild_Weasel_US is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_AGM_AGM65B_Maverick
+                    Ammunition                          = ~/Ammo_AGM_AGM45_Shrike
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1

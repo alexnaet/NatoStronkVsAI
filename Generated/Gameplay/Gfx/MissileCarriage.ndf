@@ -1802,23 +1802,23 @@ export MissileCarriage_F4_Wild_Weasel_US is TMissileCarriageConnoisseur
     MeshDescriptor = Modele_F4_Wild_Weasel_US
     PylonSet       = DepictionPylonSet_Airplane_Default
     WeaponInfos    = [
-        TMissileCarriageWeaponInfo // NEW 2x AA AIM9L Sidewinder  old: 5x AGM AGM45 Shrike
+        TMissileCarriageWeaponInfo // NEW 2x AGM AGM88 HARM  old: 5x AGM AGM45 Shrike
         (
             WeaponIndex = 2
+            MissileType = eAGM
+            Count       = 2 * 1
+        ),
+        TMissileCarriageWeaponInfo // NEW 2x AGM AGM65 Maveric old: AA AIM9J Sidewinder
+        (
+            WeaponIndex = 3
             MissileType = eAAM
             Count       = 2 * 1
         ),
-        TMissileCarriageWeaponInfo //NEW 2x AGM AGM88 HARM old: AA AIM9J Sidewinder
-        (
-            WeaponIndex = 3
-            MissileType = eAGM
-            Count       = 2 * 1
-        ),
-        TMissileCarriageWeaponInfo //NEW 3x AGM AGM65 Maveric
+        TMissileCarriageWeaponInfo //NEW 2x AA AIM9L Sidewinder
         (
             WeaponIndex = 4
             MissileType = eAGM
-            Count       = 3 * 1
+            Count       = 2 * 1
         ),
     ]
 )

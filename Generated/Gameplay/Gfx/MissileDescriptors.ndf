@@ -92,9 +92,19 @@ export Descriptor_Missile_AA_AIM120A_AMRAAM is TEntityDescriptor
                     MaxAcceleration = 8000.0 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
-                AscendantPhaseConfig = nil
-                RecedingPhaseConfig = nil
-                CruiseAltitude = 0.0 * Metre
+                AscendantPhaseConfig = TGuidedMissileMovementConfigDescriptor
+                (
+                    MaxSpeed        = 14000.0 * Metre
+                    MaxAcceleration = 8000.0 * Metre
+                    AutoGyr         = 0.5235987755982988
+                )
+                RecedingPhaseConfig = TGuidedMissileMovementConfigDescriptor
+                (
+                    MaxSpeed        = 14000.0 * Metre  
+                    MaxAcceleration = 8000.0 * Metre
+                    AutoGyr         = 0.5235987755982988
+                )
+                CruiseAltitude = 4000.0 * Metre
                 TimeMaxBetweenRandomMoveWhenUncontrollable = 2
                 TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
                 TimeBetweenChaosUpdates = 0.1
@@ -6365,27 +6375,27 @@ export Descriptor_Missile_AGM_AGM88_HARM is TEntityDescriptor
                 (
                     MaxSpeed        = 6000.0 * Metre
                     MaxAcceleration = 3000.0 * Metre
-                    AutoGyr         = 0.5235987755982988  //0.6981317007977318
+                    AutoGyr         = 0.5235987755982988
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
                     MaxSpeed        = 6000.0 * Metre
                     MaxAcceleration = 3000.0 * Metre
-                    AutoGyr         = 0.5235987755982988  //0.6981317007977318
+                    AutoGyr         = 0.5235987755982988
                 )
                 AscendantPhaseConfig = TGuidedMissileMovementConfigDescriptor
                 (
                     MaxSpeed        = 6000.0 * Metre
                     MaxAcceleration = 3000.0 * Metre
-                    AutoGyr         = 0.5235987755982988
+                    AutoGyr         = 0.6981317007977318 //0.5235987755982988
                 )
                 RecedingPhaseConfig = TGuidedMissileMovementConfigDescriptor
                 (
                     MaxSpeed        = 6000.0 * Metre  
                     MaxAcceleration = 3000.0 * Metre
-                    AutoGyr         = 0.5235987755982988
+                    AutoGyr         = 0.6981317007977318 //0.5235987755982988
                 )
-                CruiseAltitude = 2000.0 * Metre
+                CruiseAltitude = 3000.0 * Metre
                 TimeMaxBetweenRandomMoveWhenUncontrollable = 2
                 TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
                 TimeBetweenChaosUpdates = 0.1
@@ -6529,25 +6539,25 @@ export Descriptor_Missile_AGM_ALARM is TEntityDescriptor
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
                     MaxSpeed        = 6000.0 * Metre
-                    MaxAcceleration = 3000.0 * Metre
-                    AutoGyr         = 0.5235987755982988  //0.6981317007977318
+                    MaxAcceleration = 4000.0 * Metre
+                    AutoGyr         = 0.6981317007977318
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
                     MaxSpeed        = 6000.0 * Metre
-                    MaxAcceleration = 3000.0 * Metre
-                    AutoGyr         = 0.5235987755982988  //0.6981317007977318
+                    MaxAcceleration = 4000.0 * Metre
+                    AutoGyr         = 0.6981317007977318
                 )
                 AscendantPhaseConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 6000.0 * Metre
-                    MaxAcceleration = 3000.0 * Metre
+                    MaxSpeed        = 3500.0 * Metre
+                    MaxAcceleration = 1500.0 * Metre
                     AutoGyr         = 0.5235987755982988
                 )
                 RecedingPhaseConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 6000.0 * Metre  
-                    MaxAcceleration = 3000.0 * Metre
+                    MaxSpeed        = 3500.0 * Metre  
+                    MaxAcceleration = 1500.0 * Metre
                     AutoGyr         = 0.5235987755982988
                 )
                 CruiseAltitude = 2000.0 * Metre

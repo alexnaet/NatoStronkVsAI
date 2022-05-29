@@ -3053,19 +3053,19 @@ SubGenerators_F4_Wild_Weasel_US is [
         Pylons = DepictionPylonSet_Airplane_Default
         Missiles = [
             TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 1
-                Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_SideWinder PhysicalProperty = "Tourelle2_MissileCount" MissileNumber = 0 )),
+                Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_AGM88_Harm PhysicalProperty = "Tourelle2_MissileCount" MissileNumber = 0 )),
             TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 2
-                Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_SideWinder PhysicalProperty = "Tourelle2_MissileCount" MissileNumber = 1 )),
-            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 3 MissileIndex = 1
-                Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_AGM88_Harm PhysicalProperty = "Tourelle3_MissileCount" MissileNumber = 0 )),
-            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 3 MissileIndex = 2
-                Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_AGM88_Harm PhysicalProperty = "Tourelle3_MissileCount" MissileNumber = 1 )),
+                Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_AGM88_Harm PhysicalProperty = "Tourelle2_MissileCount" MissileNumber = 1 )),
             TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 4 MissileIndex = 1
-                Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_Maverick PhysicalProperty = "Tourelle4_MissileCount" MissileNumber = 0 )),
+                Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_AIM7 PhysicalProperty = "Tourelle3_MissileCount" MissileNumber = 0 )),
             TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 4 MissileIndex = 2
-                Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_Maverick PhysicalProperty = "Tourelle4_MissileCount" MissileNumber = 1 )),
-            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 4 MissileIndex = 3
-                Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_Maverick PhysicalProperty = "Tourelle4_MissileCount" MissileNumber = 2 )),
+                Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_AIM7 PhysicalProperty = "Tourelle3_MissileCount" MissileNumber = 1 )),
+            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 3 MissileIndex = 1
+                Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_AGM_45_Shrike PhysicalProperty = "Tourelle4_MissileCount" MissileNumber = 0 )),
+            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 3 MissileIndex = 2
+                Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_AGM_45_Shrike PhysicalProperty = "Tourelle4_MissileCount" MissileNumber = 1 )),
+            //TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 4 MissileIndex = 3
+            //    Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_Maverick PhysicalProperty = "Tourelle4_MissileCount" MissileNumber = 2 )),
         ]
     )
 ]
@@ -3076,19 +3076,19 @@ SubGenerators_Showroom_F4_Wild_Weasel_US is [
         Pylons = DepictionPylonSet_Airplane_Default
         Missiles = [
             TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 1
-                Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_SideWinder )),
-            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 2
-                Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_SideWinder )),
-            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 3 MissileIndex = 1
                 Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_AGM88_Harm )),
-            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 3 MissileIndex = 2
+            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 2
                 Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_AGM88_Harm )),
             TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 4 MissileIndex = 1
-                Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_Maverick )),
+                Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_AIM7 )),
             TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 4 MissileIndex = 2
-                Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_Maverick )),
-            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 4 MissileIndex = 3
-                Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_Maverick )),
+                Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_AIM7 )),
+            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 3 MissileIndex = 1
+                Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_AGM_45_Shrike )),
+            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 3 MissileIndex = 2
+                Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_AGM_45_Shrike )),
+            //TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 4 MissileIndex = 3
+            //    Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_Maverick )),
         ]
     )
 ]
