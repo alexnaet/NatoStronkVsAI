@@ -32,12 +32,12 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 0.0 // SAM 9M336 x3
                )
                MaxRangeTBA = TMinMaxValue (
-                       Min = 6500.0 // MANPAD_FIM43
-                       Max = 8500.0 // SAM MIM72G
+                       Min = 9905.0    // 6500.0 // MANPAD_FIM43
+                       Max = 12169.0  //8500.0 // SAM MIM72G
                )
                MaxRangeHA = TMinMaxValue (
-                       Min = 6500.0 // MANPAD_FIM43
-                       Max = 15000.0 // SAM 9M38M1 x4
+                       Min = 9905.0  //6500.0 // MANPAD_FIM43
+                       Max = 33960.0  //15000.0 // SAM 9M38M1 x4
                )
                AimTime = TMinMaxValue (
                        Min = 1.0 // SAM 9M336 x3
@@ -385,7 +385,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                )
                MaxRange = TMinMaxValue (
                        Min = 4500.0 // M47_DRAGON_II
-                       Max = 8000.0 // ATGM 9M117 Bastion
+                       Max = 11320.0 //8000.0 // ATGM 9M117 Bastion
                )
                MaxRangeTBA = TMinMaxValue (
                        Min = 0.0 // ATGM 9K111 Fagot
@@ -812,12 +812,12 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 3000.0 // DCA 2 canons Oerlikon GDF 35mm
                )
                MaxRangeTBA = TMinMaxValue (
-                       Min = 7004.0 // Gatling M61 Vulcan 20mm late
-                       Max = 7995.0 // DCA 2 canons Oerlikon GDF 35mm
+                       Min = 7075.0 //7004.0 // Gatling M61 Vulcan 20mm late
+                       Max = 11886.0  //7995.0 // DCA 2 canons Oerlikon GDF 35mm
                )
                MaxRangeHA = TMinMaxValue (
-                       Min = 7500.0 // Gatling M61 Vulcan 20mm late
-                       Max = 8504.0 // DCA 2 canons Oerlikon GDF 35mm
+                       Min = 7075.0 //7004.0 // Gatling M61 Vulcan 20mm late
+                       Max = 11886.0  //7995.0 // DCA 2 canons Oerlikon GDF 35mm
                )
                AimTime = TMinMaxValue (
                        Min = 0.5 // DCA 2 canons Oerlikon GDF 35mm
@@ -848,7 +848,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 1 // DCA 2 canons Oerlikon GDF 35mm
                )
                TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 0.2 // Gatling M61 Vulcan 20mm late
+                       Min = 0.1 // Gatling M61 Vulcan 20mm late
                        Max = 0.4 // DCA 2 canons Oerlikon GDF 35mm
                )
                NbShotsBySalvo = TMinMaxValue (
@@ -1024,8 +1024,8 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 1.0 * Metre // AGM AGM114A x8
                )
                MaxRange = TMinMaxValue (
-                       Min = 8000.0 // AGM AGM114A x8
-                       Max = 12000.0 // AGM AS30
+                       Min = 9905.0  //8000.0 // AGM AGM114A x8
+                       Max = 18305.0  //12000.0 // AGM AS30
                )
                MaxRangeTBA = TMinMaxValue (
                        Min = 0.0 // AGM AGM114A x8
@@ -1101,11 +1101,11 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                )
                MaxRangeTBA = TMinMaxValue (
                        Min = 0.0 // AA AIM120A AMRAAM
-                       Max = 6000.0 // AA R60 Vympel
+                       Max = 7075.0 //6000.0 // AA R60 Vympel
                )
                MaxRangeHA = TMinMaxValue (
-                       Min = 10000.0 // AA R60 Vympel
-                       Max = 36000.0 // AA R37 Vympel
+                       Min = 7075.0 //10000.0 // AA R60 Vympel
+                       Max = 49525.0 //36000.0 // AA R37 Vympel
                )
                AimTime = TMinMaxValue (
                        Min = 0.0 // AA R60 Vympel
@@ -1223,21 +1223,21 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
           (
                // PhysicalDamages x use_model_ (Number of weapons)
                PhysicalDamages = TMinMaxValue (
-                       Min = 1.0 // AGM AGM88 HARM
-                       Max = 1.0 // AGM AGM88 HARM
+                       Min = 4.0 // AGM AGM88 HARM
+                       Max = 5.0 // AGM AGM88 HARM
                )
                // SuppressDamages x use_model_ (Number of weapons)
                SuppressDamages = TMinMaxValue (
                        Min = 1.0 // AGM AGM88 HARM
-                       Max = 1.0 // AGM AGM88 HARM
+                       Max = 200.0 // AGM AGM88 HARM
                )
                SplashDamageRadius = TMinMaxValue (
                        Min = 1.0 * Metre // AGM AGM88 HARM
-                       Max = 1.0 * Metre // AGM AGM88 HARM
+                       Max = 600.0 * Metre // AGM AGM88 HARM
                )
                MaxRange = TMinMaxValue (
-                       Min = 12000.0 // AGM AGM45 Shrike
-                       Max = 15000.0 // AGM AGM88 HARM
+                       Min = 28300.0  //12000.0 // AGM AGM45 Shrike
+                       Max = 42450.0  //15000.0 // AGM AGM88 HARM
                )
                MaxRangeTBA = TMinMaxValue (
                        Min = 0.0 // AGM AGM88 HARM

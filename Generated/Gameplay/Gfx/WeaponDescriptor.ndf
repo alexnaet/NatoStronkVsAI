@@ -12098,7 +12098,7 @@ export WeaponDescriptor_Gepard_1A2_RFA is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     NeedsExplicitOrderToUseSmoke = True
     Salves               = [
-        9,
+        16,  // old value 8, mod 9
         -1,
         -1,
         -1,
@@ -18700,7 +18700,7 @@ export WeaponDescriptor_M163_PIVADS_US is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     NeedsExplicitOrderToUseSmoke = True
     Salves               = [
-        20,
+        52,
         -1,
         -1,
         -1,
@@ -36218,7 +36218,7 @@ export WeaponDescriptor_Tunguska_2K22_SOV is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     NeedsExplicitOrderToUseSmoke = True
     Salves               = [
-        23,
+        24,
         1,
         -1,
         -1,
@@ -37627,7 +37627,7 @@ export WeaponDescriptor_ZSU_23_Shilka_SOV is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     NeedsExplicitOrderToUseSmoke = True
     Salves               = [
-        50,
+        25,
         -1,
         -1,
         -1,
