@@ -36,7 +36,7 @@ export StandardSupply is TSupplyDescriptor
     // Point de vie ravitaillés par seconde
     HealthSupplyBySecond = 0.1 // Original 0.3  //0.00001
     // Cout du ravitaillement de point de vie par seconde
-    HealthSupplyCostBySecond = 10.0 // Original 0.3 // 0.00001
+    HealthSupplyCostBySecond = 2.0 // Original 0.3 // 0.00001
 
     // Point de ravitaillement ravitaillés par seconde
     SupplySupplyBySecond = 20 //30

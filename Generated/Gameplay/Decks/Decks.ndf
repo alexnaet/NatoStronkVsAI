@@ -185,16 +185,6 @@ export Descriptor_Deck_RFA_2_PzGrenadier_multi is TDeckDescriptor
             ExperienceLevel = 1
             DeckPack = ~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_Tornado_IDS_MW1_RFA
         ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_Marder_Roland_2_RFA
-        ),
-        TDeckPackDescription
-        (
-            ExperienceLevel = 1
-            DeckPack = ~/Descriptor_Deck_Pack_TOE_RFA_2_PzGrenadier_multi_Marder_Roland_RFA
-        ), 
     ]
     DeckCombatGroupList =
     [
@@ -527,7 +517,7 @@ export Descriptor_Deck_US_3rd_Arm_multi is TDeckDescriptor
         (
             ExperienceLevel = 2
             DeckPack = ~/Descriptor_Deck_Pack_TOE_US_3rd_Arm_multi_Scout_US
-            Transport = ~/Descriptor_Unit_M151_MUTT_trans_US
+            Transport = ~/Descriptor_Unit_M998_Humvee_US  //Descriptor_Unit_M151_MUTT_trans_US
         ),
         TDeckPackDescription
         (
@@ -1384,7 +1374,7 @@ export Descriptor_Deck_US_8th_Inf_multi is TDeckDescriptor
         (
             ExperienceLevel = 2
             DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_Engineer_CMD_US
-            Transport = ~/Descriptor_Unit_M151_MUTT_trans_US
+            Transport = ~/Descriptor_Unit_M998_Humvee_US //Descriptor_Unit_M151_MUTT_trans_US
         ),
         TDeckPackDescription
         (
@@ -1396,7 +1386,7 @@ export Descriptor_Deck_US_8th_Inf_multi is TDeckDescriptor
         (
             ExperienceLevel = 2
             DeckPack = ~/Descriptor_Deck_Pack_TOE_US_8th_Inf_multi_Engineers_Flash_US
-            Transport = ~/Descriptor_Unit_M151_MUTT_trans_US
+            Transport = ~/Descriptor_Unit_M998_Humvee_US //Descriptor_Unit_M151_MUTT_trans_US
         ),
         TDeckPackDescription
         (

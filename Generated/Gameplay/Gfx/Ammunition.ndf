@@ -31939,7 +31939,7 @@ export Ammo_MW1_dispenser is TAmmunitionDescriptor
     TempsEntreDeuxTirs_Min             = -1.0
     TempsEntreDeuxTirs_Max             = -1.0
     TempsEntreDeuxFx                  = 0.08
-    PorteeMaximale                    = ((3300) * Metre)   // original 1995
+    PorteeMaximale                    = ((3990) * Metre)   // original 1995
     PorteeMinimaleTBA                 = ((0) * Metre)
     PorteeMaximaleTBA                 = ((0) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
@@ -55039,9 +55039,9 @@ export Ammo_MANPAD_FIM92 is TAmmunitionDescriptor
     TempsEntreDeuxFx                  = 2.0
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
-    PorteeMaximaleTBA                 = ((10754) * Metre)
+    PorteeMaximaleTBA                 = ((9905) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
-    PorteeMaximaleHA                  = ((10754) * Metre)
+    PorteeMaximaleHA                  = ((9905) * Metre)
     PorteeMinimale                    = ((0) * Metre)
     AngleDispersion                   = 0.02
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -58127,9 +58127,9 @@ export Ammo_SAM_Stinger is TAmmunitionDescriptor
     TempsEntreDeuxFx                  = 2.0
     PorteeMaximale                    = ((0) * Metre)
     PorteeMinimaleTBA                 = ((0) * Metre)
-    PorteeMaximaleTBA                 = ((12735) * Metre)
+    PorteeMaximaleTBA                 = ((9905) * Metre)
     PorteeMinimaleHA                  = ((0) * Metre)
-    PorteeMaximaleHA                  = ((12735) * Metre)
+    PorteeMaximaleHA                  = ((9905) * Metre)
     PorteeMinimale                    = ((0) * Metre)
     AngleDispersion                   = 0.02
     CorrectedShotAimtimeMultiplier    = 1.0

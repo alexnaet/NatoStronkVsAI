@@ -14583,7 +14583,7 @@ export WeaponDescriptor_LRRP_US is TWeaponManagerModuleDescriptor
     Salves               = [
         80,
         180,
-        8,
+        4,
         -1,
         -1,
         -1
@@ -14693,7 +14693,7 @@ export WeaponDescriptor_LRRP_US is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketInf_M72_LAW_66mm
+                    Ammunition                          = ~/Ammo_RocketInf_AT4_83mm
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -27803,7 +27803,7 @@ export WeaponDescriptor_Ranger_US is TWeaponManagerModuleDescriptor
     Salves               = [
         80,
         180,
-        8,
+        10,
         -1,
         -1,
         -1
@@ -27913,7 +27913,7 @@ export WeaponDescriptor_Ranger_US is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketInf_AT4_83mm
+                    Ammunition                          = ~/Ammo_RocketInf_Carl_Gustav
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1

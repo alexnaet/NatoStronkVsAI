@@ -2447,7 +2447,7 @@ Gfx_LRRP_US_Showroom is Gfx_LRRP_US
 AllWeaponAlternatives_LRRP_US is [
   AlternativeWithId( SelectorId = ['MeshAlternative_1'] ModelFile = ModelFile_M16A1_Carbine ),
   AlternativeWithId( SelectorId = ['MeshAlternative_2'] ModelFile = ModelFile_M249 ),
-  AlternativeWithId( SelectorId = ['MeshAlternative_3'] ModelFile = ModelFile_M72A4 ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_3'] ModelFile = ModelFile_AT_4 ),
   AlternativeNone
 ]
 AllWeaponSubDepiction_LRRP_US is TemplateAllSubWeaponDepiction
@@ -3666,7 +3666,7 @@ Gfx_Ranger_US_Showroom is Gfx_Ranger_US
 AllWeaponAlternatives_Ranger_US is [
   AlternativeWithId( SelectorId = ['MeshAlternative_1'] ModelFile = ModelFile_M16A1_Carbine ),
   AlternativeWithId( SelectorId = ['MeshAlternative_2'] ModelFile = ModelFile_M249 ),
-  AlternativeWithId( SelectorId = ['MeshAlternative_3'] ModelFile = ModelFile_AT_4 ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_3'] ModelFile = ModelFile_Carl_Gustav_M2 ),
   AlternativeNone
 ]
 AllWeaponSubDepiction_Ranger_US is TemplateAllSubWeaponDepiction
