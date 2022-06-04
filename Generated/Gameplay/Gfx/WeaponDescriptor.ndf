@@ -10453,10 +10453,10 @@ export WeaponDescriptor_Fallschirm_RFA is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     NeedsExplicitOrderToUseSmoke = True
     Salves               = [
-        140,
-        90,
-        4,
-        4,
+        120,        // 6x G3A4 with 20 salvos each
+        180,        // 2x MG3 with 90 salvos each
+        6,          // 6 rounds PzF 3
+        40,         // 2x Uzi with 20 slavos per soldier
         -1,
         -1
     ]
@@ -10491,7 +10491,7 @@ export WeaponDescriptor_Fallschirm_RFA is TWeaponManagerModuleDescriptor
                     MaxRangeDisplay_Thickness           = -0.1
                     MinRangeDisplay_Color               = RGBA[0,0,0,0]
                     MinRangeDisplay_Thickness           = -0.1
-                    NbWeapons                           = 7
+                    NbWeapons                           = 6
                     SalvoStockIndex                     = 0
                     ShowDispersion                      = False
                     ShowInInterface                     = True
@@ -10534,7 +10534,7 @@ export WeaponDescriptor_Fallschirm_RFA is TWeaponManagerModuleDescriptor
                     MaxRangeDisplay_Thickness           = -0.1
                     MinRangeDisplay_Color               = RGBA[0,0,0,0]
                     MinRangeDisplay_Thickness           = -0.1
-                    NbWeapons                           = 1
+                    NbWeapons                           = 2
                     SalvoStockIndex                     = 1
                     ShowDispersion                      = False
                     ShowInInterface                     = True
@@ -10577,7 +10577,7 @@ export WeaponDescriptor_Fallschirm_RFA is TWeaponManagerModuleDescriptor
                     MaxRangeDisplay_Thickness           = -0.1
                     MinRangeDisplay_Color               = RGBA[0,0,0,0]
                     MinRangeDisplay_Thickness           = -0.1
-                    NbWeapons                           = 1
+                    NbWeapons                           = 2
                     SalvoStockIndex                     = 2
                     ShowDispersion                      = False
                     ShowInInterface                     = True
@@ -10608,7 +10608,7 @@ export WeaponDescriptor_Fallschirm_RFA is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketInf_PzF_3
+                    Ammunition                          = ~/Ammo_PM_uzi
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -10620,7 +10620,7 @@ export WeaponDescriptor_Fallschirm_RFA is TWeaponManagerModuleDescriptor
                     MaxRangeDisplay_Thickness           = -0.1
                     MinRangeDisplay_Color               = RGBA[0,0,0,0]
                     MinRangeDisplay_Thickness           = -0.1
-                    NbWeapons                           = 1
+                    NbWeapons                           = 2
                     SalvoStockIndex                     = 3
                     ShowDispersion                      = False
                     ShowInInterface                     = True
@@ -10770,9 +10770,9 @@ export WeaponDescriptor_Fallschirmjager_CMD_RFA is TWeaponManagerModuleDescripto
     DefaultRiposteStance = False
     NeedsExplicitOrderToUseSmoke = True
     Salves               = [
-        120,
-        -1,
-        -1,
+        40,
+        60,
+        90,
         -1,
         -1,
         -1
@@ -10795,7 +10795,7 @@ export WeaponDescriptor_Fallschirmjager_CMD_RFA is TWeaponManagerModuleDescripto
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_FM_G3KA4
+                    Ammunition                          = ~/Ammo_PM_uzi
                     AnimateOnlyOneSoldier               = False
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -10807,7 +10807,7 @@ export WeaponDescriptor_Fallschirmjager_CMD_RFA is TWeaponManagerModuleDescripto
                     MaxRangeDisplay_Thickness           = -0.1
                     MinRangeDisplay_Color               = RGBA[0,0,0,0]
                     MinRangeDisplay_Thickness           = -0.1
-                    NbWeapons                           = 6
+                    NbWeapons                           = 2
                     SalvoStockIndex                     = 0
                     ShowDispersion                      = False
                     ShowInInterface                     = True
@@ -10831,9 +10831,96 @@ export WeaponDescriptor_Fallschirmjager_CMD_RFA is TWeaponManagerModuleDescripto
             ]
             NbFX                        = 1
             YulBoneOrdinal              = 1
+        ),
+        TTurretInfanterieDescriptor
+        (
+            MountedWeaponDescriptorList = [
+                TMountedWeaponDescriptor
+                (
+                    AmmoConsumption_ForInterface        = 1
+                    Ammunition                          = ~/Ammo_FM_G3KA4
+                    AnimateOnlyOneSoldier               = True
+                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness        = -0.1
+                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness         = -0.1
+                    EffectTag                           = 'weapon_effet_tag2'
+                    HandheldEquipmentKey                = 'MeshAlternative_2'
+                    MaxRangeDisplay_Color               = RGBA[0,0,0,0]
+                    MaxRangeDisplay_Thickness           = -0.1
+                    MinRangeDisplay_Color               = RGBA[0,0,0,0]
+                    MinRangeDisplay_Thickness           = -0.1
+                    NbWeapons                           = 3
+                    SalvoStockIndex                     = 1
+                    ShowDispersion                      = False
+                    ShowInInterface                     = True
+                    ShowMaximumRange                    = False
+                    ShowMaximumRange_HA                 = False
+                    ShowMaximumRange_Projectile         = False
+                    ShowMaximumRange_TBA                = False
+                    ShowMinimumRange                    = False
+                    ShowMinimumRange_HA                 = False
+                    ShowMinimumRange_Projectile         = False
+                    ShowMinimumRange_TBA                = False
+                    ShowSplashRadius                    = False
+                    SplashRadiusOffColor                = RGBA[0,0,0,0]
+                    SplashRadiusOffThickness            = -0.1
+                    SplashRadiusOnColor                 = RGBA[0,0,0,0]
+                    SplashRadiusOnThickness             = -0.1
+                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_2'
+                    WeaponIgnoredPropertyName           = 'WeaponIgnored_2'
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_2", ]
+                )
+            ]
+            NbFX                        = 1
+            YulBoneOrdinal              = 2
+        ),
+        TTurretInfanterieDescriptor
+        (
+            MountedWeaponDescriptorList = [
+                TMountedWeaponDescriptor
+                (
+                    AmmoConsumption_ForInterface        = 1
+                    Ammunition                          = ~/Ammo_MMG_MG3_7_62mm
+                    AnimateOnlyOneSoldier               = True
+                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness        = -0.1
+                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness         = -0.1
+                    EffectTag                           = 'weapon_effet_tag3'
+                    HandheldEquipmentKey                = 'MeshAlternative_3'
+                    MaxRangeDisplay_Color               = RGBA[0,0,0,0]
+                    MaxRangeDisplay_Thickness           = -0.1
+                    MinRangeDisplay_Color               = RGBA[0,0,0,0]
+                    MinRangeDisplay_Thickness           = -0.1
+                    NbWeapons                           = 1
+                    SalvoStockIndex                     = 2
+                    ShowDispersion                      = False
+                    ShowInInterface                     = True
+                    ShowMaximumRange                    = False
+                    ShowMaximumRange_HA                 = False
+                    ShowMaximumRange_Projectile         = False
+                    ShowMaximumRange_TBA                = False
+                    ShowMinimumRange                    = False
+                    ShowMinimumRange_HA                 = False
+                    ShowMinimumRange_Projectile         = False
+                    ShowMinimumRange_TBA                = False
+                    ShowSplashRadius                    = False
+                    SplashRadiusOffColor                = RGBA[0,0,0,0]
+                    SplashRadiusOffThickness            = -0.1
+                    SplashRadiusOnColor                 = RGBA[0,0,0,0]
+                    SplashRadiusOnThickness             = -0.1
+                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_3'
+                    WeaponIgnoredPropertyName           = 'WeaponIgnored_3'
+                    WeaponShootDataPropertyName         = ["WeaponShootData_0_3", ]
+                )
+            ]
+            NbFX                        = 1
+            YulBoneOrdinal              = 3
         )
     ]
 )
+
 export WeaponDescriptor_Fallschirmjager_DDR is TWeaponManagerModuleDescriptor
 (
     DelayIdleAmmoSorting = DelayIdleAmmoSorting
@@ -11823,9 +11910,9 @@ export WeaponDescriptor_Fernspaher_RFA is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     NeedsExplicitOrderToUseSmoke = True
     Salves               = [
-        100,
-        90,
-        5,
+        80,
+        180,
+        6,
         -1,
         -1,
         -1
@@ -11861,7 +11948,7 @@ export WeaponDescriptor_Fernspaher_RFA is TWeaponManagerModuleDescriptor
                     MaxRangeDisplay_Thickness           = -0.1
                     MinRangeDisplay_Color               = RGBA[0,0,0,0]
                     MinRangeDisplay_Thickness           = -0.1
-                    NbWeapons                           = 5
+                    NbWeapons                           = 4
                     SalvoStockIndex                     = 0
                     ShowDispersion                      = False
                     ShowInInterface                     = True
@@ -11904,7 +11991,7 @@ export WeaponDescriptor_Fernspaher_RFA is TWeaponManagerModuleDescriptor
                     MaxRangeDisplay_Thickness           = -0.1
                     MinRangeDisplay_Color               = RGBA[0,0,0,0]
                     MinRangeDisplay_Thickness           = -0.1
-                    NbWeapons                           = 1
+                    NbWeapons                           = 2
                     SalvoStockIndex                     = 1
                     ShowDispersion                      = False
                     ShowInInterface                     = True
@@ -11935,7 +12022,7 @@ export WeaponDescriptor_Fernspaher_RFA is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_Grenade_Satchel_Charge
+                    Ammunition                          = ~/Ammo_RocketInf_Armbrust
                     AnimateOnlyOneSoldier               = True
                     DispersionRadiusOffColor            = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness        = -0.1
@@ -11947,7 +12034,7 @@ export WeaponDescriptor_Fernspaher_RFA is TWeaponManagerModuleDescriptor
                     MaxRangeDisplay_Thickness           = -0.1
                     MinRangeDisplay_Color               = RGBA[0,0,0,0]
                     MinRangeDisplay_Thickness           = -0.1
-                    NbWeapons                           = 1
+                    NbWeapons                           = 2
                     SalvoStockIndex                     = 2
                     ShowDispersion                      = False
                     ShowInInterface                     = True
@@ -12529,9 +12616,9 @@ export WeaponDescriptor_HeimatschutzJager_RFA is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     NeedsExplicitOrderToUseSmoke = True
     Salves               = [
-        200,
-        90,
-        6,
+        180,
+        180,
+        8,
         -1,
         -1,
         -1
@@ -12567,7 +12654,7 @@ export WeaponDescriptor_HeimatschutzJager_RFA is TWeaponManagerModuleDescriptor
                     MaxRangeDisplay_Thickness           = -0.1
                     MinRangeDisplay_Color               = RGBA[0,0,0,0]
                     MinRangeDisplay_Thickness           = -0.1
-                    NbWeapons                           = 10
+                    NbWeapons                           = 9
                     SalvoStockIndex                     = 0
                     ShowDispersion                      = False
                     ShowInInterface                     = True
@@ -12610,7 +12697,7 @@ export WeaponDescriptor_HeimatschutzJager_RFA is TWeaponManagerModuleDescriptor
                     MaxRangeDisplay_Thickness           = -0.1
                     MinRangeDisplay_Color               = RGBA[0,0,0,0]
                     MinRangeDisplay_Thickness           = -0.1
-                    NbWeapons                           = 1
+                    NbWeapons                           = 2
                     SalvoStockIndex                     = 1
                     ShowDispersion                      = False
                     ShowInInterface                     = True
@@ -12653,7 +12740,7 @@ export WeaponDescriptor_HeimatschutzJager_RFA is TWeaponManagerModuleDescriptor
                     MaxRangeDisplay_Thickness           = -0.1
                     MinRangeDisplay_Color               = RGBA[0,0,0,0]
                     MinRangeDisplay_Thickness           = -0.1
-                    NbWeapons                           = 1
+                    NbWeapons                           = 2
                     SalvoStockIndex                     = 2
                     ShowDispersion                      = False
                     ShowInInterface                     = True
@@ -13399,9 +13486,9 @@ export WeaponDescriptor_Jager_RFA is TWeaponManagerModuleDescriptor
     DefaultRiposteStance = False
     NeedsExplicitOrderToUseSmoke = True
     Salves               = [
-        200,
-        90,
-        8,
+        180,
+        180,
+        10,
         -1,
         -1,
         -1
@@ -13437,7 +13524,7 @@ export WeaponDescriptor_Jager_RFA is TWeaponManagerModuleDescriptor
                     MaxRangeDisplay_Thickness           = -0.1
                     MinRangeDisplay_Color               = RGBA[0,0,0,0]
                     MinRangeDisplay_Thickness           = -0.1
-                    NbWeapons                           = 10
+                    NbWeapons                           = 9
                     SalvoStockIndex                     = 0
                     ShowDispersion                      = False
                     ShowInInterface                     = True
@@ -13480,7 +13567,7 @@ export WeaponDescriptor_Jager_RFA is TWeaponManagerModuleDescriptor
                     MaxRangeDisplay_Thickness           = -0.1
                     MinRangeDisplay_Color               = RGBA[0,0,0,0]
                     MinRangeDisplay_Thickness           = -0.1
-                    NbWeapons                           = 1
+                    NbWeapons                           = 2
                     SalvoStockIndex                     = 1
                     ShowDispersion                      = False
                     ShowInInterface                     = True
@@ -13523,7 +13610,7 @@ export WeaponDescriptor_Jager_RFA is TWeaponManagerModuleDescriptor
                     MaxRangeDisplay_Thickness           = -0.1
                     MinRangeDisplay_Color               = RGBA[0,0,0,0]
                     MinRangeDisplay_Thickness           = -0.1
-                    NbWeapons                           = 1
+                    NbWeapons                           = 2
                     SalvoStockIndex                     = 2
                     ShowDispersion                      = False
                     ShowInInterface                     = True
@@ -27079,10 +27166,10 @@ export WeaponDescriptor_Panzergrenadier_APC_RFA is TWeaponManagerModuleDescripto
     DefaultRiposteStance = False
     NeedsExplicitOrderToUseSmoke = True
     Salves               = [
-        160,
-        90,
-        8,
-        8,
+        140,
+        180,
+        12,
+        -1,
         -1,
         -1
     ]
@@ -27117,7 +27204,7 @@ export WeaponDescriptor_Panzergrenadier_APC_RFA is TWeaponManagerModuleDescripto
                     MaxRangeDisplay_Thickness           = -0.1
                     MinRangeDisplay_Color               = RGBA[0,0,0,0]
                     MinRangeDisplay_Thickness           = -0.1
-                    NbWeapons                           = 8
+                    NbWeapons                           = 7
                     SalvoStockIndex                     = 0
                     ShowDispersion                      = False
                     ShowInInterface                     = True
@@ -27160,7 +27247,7 @@ export WeaponDescriptor_Panzergrenadier_APC_RFA is TWeaponManagerModuleDescripto
                     MaxRangeDisplay_Thickness           = -0.1
                     MinRangeDisplay_Color               = RGBA[0,0,0,0]
                     MinRangeDisplay_Thickness           = -0.1
-                    NbWeapons                           = 1
+                    NbWeapons                           = 2
                     SalvoStockIndex                     = 1
                     ShowDispersion                      = False
                     ShowInInterface                     = True
@@ -27203,7 +27290,7 @@ export WeaponDescriptor_Panzergrenadier_APC_RFA is TWeaponManagerModuleDescripto
                     MaxRangeDisplay_Thickness           = -0.1
                     MinRangeDisplay_Color               = RGBA[0,0,0,0]
                     MinRangeDisplay_Thickness           = -0.1
-                    NbWeapons                           = 1
+                    NbWeapons                           = 2
                     SalvoStockIndex                     = 2
                     ShowDispersion                      = False
                     ShowInInterface                     = True
@@ -27227,49 +27314,6 @@ export WeaponDescriptor_Panzergrenadier_APC_RFA is TWeaponManagerModuleDescripto
             ]
             NbFX                        = 1
             YulBoneOrdinal              = 3
-        ),
-        TTurretInfanterieDescriptor
-        (
-            MountedWeaponDescriptorList = [
-                TMountedWeaponDescriptor
-                (
-                    AmmoConsumption_ForInterface        = 1
-                    Ammunition                          = ~/Ammo_RocketInf_PzF_44
-                    AnimateOnlyOneSoldier               = True
-                    DispersionRadiusOffColor            = RGBA[0,0,0,0]
-                    DispersionRadiusOffThickness        = -0.1
-                    DispersionRadiusOnColor             = RGBA[0,0,0,0]
-                    DispersionRadiusOnThickness         = -0.1
-                    EffectTag                           = 'weapon_effet_tag4'
-                    HandheldEquipmentKey                = 'MeshAlternative_4'
-                    MaxRangeDisplay_Color               = RGBA[0,0,0,0]
-                    MaxRangeDisplay_Thickness           = -0.1
-                    MinRangeDisplay_Color               = RGBA[0,0,0,0]
-                    MinRangeDisplay_Thickness           = -0.1
-                    NbWeapons                           = 1
-                    SalvoStockIndex                     = 3
-                    ShowDispersion                      = False
-                    ShowInInterface                     = True
-                    ShowMaximumRange                    = False
-                    ShowMaximumRange_HA                 = False
-                    ShowMaximumRange_Projectile         = False
-                    ShowMaximumRange_TBA                = False
-                    ShowMinimumRange                    = False
-                    ShowMinimumRange_HA                 = False
-                    ShowMinimumRange_Projectile         = False
-                    ShowMinimumRange_TBA                = False
-                    ShowSplashRadius                    = False
-                    SplashRadiusOffColor                = RGBA[0,0,0,0]
-                    SplashRadiusOffThickness            = -0.1
-                    SplashRadiusOnColor                 = RGBA[0,0,0,0]
-                    SplashRadiusOnThickness             = -0.1
-                    WeaponActiveAndCanShootPropertyName = 'WeaponActiveAndCanShoot_4'
-                    WeaponIgnoredPropertyName           = 'WeaponIgnored_4'
-                    WeaponShootDataPropertyName         = ["WeaponShootData_0_4", ]
-                )
-            ]
-            NbFX                        = 1
-            YulBoneOrdinal              = 4
         )
     ]
 )

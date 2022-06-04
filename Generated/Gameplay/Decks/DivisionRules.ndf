@@ -25,7 +25,7 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = True
                         AvailableTransportList = []
                         MaxPackNumber = 1
-                        NumberOfUnitInPack = 6
+                        NumberOfUnitInPack = 8
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.66]
                     ),
                     TDeckUniteRule
@@ -34,7 +34,7 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = True
                         AvailableTransportList = []
                         MaxPackNumber = 2
-                        NumberOfUnitInPack = 3
+                        NumberOfUnitInPack = 6
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.66]
                     ),
                     TDeckUniteRule
@@ -694,7 +694,7 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = True
                         AvailableTransportList = []
                         MaxPackNumber = 3
-                        NumberOfUnitInPack = 6
+                        NumberOfUnitInPack = 8
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.66]
                     ),
                     TDeckUniteRule
@@ -703,7 +703,7 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = True
                         AvailableTransportList = []
                         MaxPackNumber = 2
-                        NumberOfUnitInPack = 3
+                        NumberOfUnitInPack = 6
                         NumberOfUnitInPackXPMultiplier = [0.0, 0.0, 1.0, 0.66]
                     ),
                     TDeckUniteRule
@@ -2479,7 +2479,7 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = True
                         AvailableTransportList = []
                         MaxPackNumber = 3
-                        NumberOfUnitInPack = 6
+                        NumberOfUnitInPack = 8
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
                     TDeckUniteRule
@@ -2488,7 +2488,7 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = True
                         AvailableTransportList = []
                         MaxPackNumber = 2
-                        NumberOfUnitInPack = 3
+                        NumberOfUnitInPack = 6
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.0]
                     ),
                     TDeckUniteRule
@@ -3095,7 +3095,7 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = True
                         AvailableTransportList = []
                         MaxPackNumber = 1
-                        NumberOfUnitInPack = 6
+                        NumberOfUnitInPack = 8
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.3]
                     ),
                     TDeckUniteRule
@@ -3104,7 +3104,7 @@ private DivisionRules is TDeckDivisionRules
                         AvailableWithoutTransport = True
                         AvailableTransportList = []
                         MaxPackNumber = 2
-                        NumberOfUnitInPack = 3
+                        NumberOfUnitInPack = 6
                         NumberOfUnitInPackXPMultiplier = [0.0, 1.0, 0.66, 0.0]
                     ),
                     TDeckUniteRule

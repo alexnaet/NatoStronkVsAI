@@ -8223,22 +8223,22 @@ export Descriptor_ShowRoomUnit_Fallschirm_RFA is TEntityDescriptor
         TInfantrySquadWeaponAssignmentModuleDescriptor
         (
             InitialTurretToSoldiersIndexMap = MAP[
-                                        (0,[1,2,3,4,5,6,7,]),
-                                        (1,[0,]),
-                                        (2,[7,]),
-                                        (3,[6,]),
+                                        (0,[2,3,4,5,]),
+                                        (1,[0,1,]),               // 2x MG3
+                                        (2,[4,5]),                // 2x PzF3
+                                        (3,[6,7,]),               // added 4th turret (Uzi)
                                       ]
             InitialSoldiersToTurretIndexMap = MAP[
-                                        (0,[1,]),
-                                        (1,[0,]),
+                                        (0,[1,]),               // 1st soldier has MG3
+                                        (1,[1,]),               // 2nd soldier has MG3
                                         (2,[0,]),
                                         (3,[0,]),
-                                        (4,[0,]),
-                                        (5,[0,]),
-                                        (6,[0,3,]),
-                                        (7,[0,2,]),
+                                        (4,[0,2,]),
+                                        (5,[0,2,]),
+                                        (6,[3,]),              // 7th soldier has MP2 (4th Turret)
+                                        (7,[3,]),              // 8th soldier has MP2 (4th Turret)
                                       ]
-            TurretWithOnlyOneSoldier = [1,]
+            TurretWithOnlyOneSoldier = []
         ),
 
         // LinkTeam
@@ -8494,17 +8494,19 @@ export Descriptor_ShowRoomUnit_Fallschirmjager_CMD_RFA is TEntityDescriptor
         TInfantrySquadWeaponAssignmentModuleDescriptor
         (
             InitialTurretToSoldiersIndexMap = MAP[
-                                        (0,[0,1,2,3,4,5,]),
+                                        (0,[0,1,]),
+                                        (1,[2,3,4,]),
+                                        (2,[5,]),
                                       ]
             InitialSoldiersToTurretIndexMap = MAP[
                                         (0,[0,]),
                                         (1,[0,]),
-                                        (2,[0,]),
-                                        (3,[0,]),
-                                        (4,[0,]),
-                                        (5,[0,]),
+                                        (2,[1,]),
+                                        (3,[1,]),
+                                        (4,[1,]),
+                                        (5,[2,]),
                                       ]
-            TurretWithOnlyOneSoldier = []
+            TurretWithOnlyOneSoldier = [2,]
         ),
 
         // LinkTeam
@@ -9574,19 +9576,19 @@ export Descriptor_ShowRoomUnit_Fernspaher_RFA is TEntityDescriptor
         TInfantrySquadWeaponAssignmentModuleDescriptor
         (
             InitialTurretToSoldiersIndexMap = MAP[
-                                        (0,[1,2,3,4,5,]),
-                                        (1,[0,]),
-                                        (2,[5,]),
+                                        (0,[1,2,4,5,]),
+                                        (1,[0,3,]),
+                                        (2,[4,5,]),
                                       ]
             InitialSoldiersToTurretIndexMap = MAP[
                                         (0,[1,]),
                                         (1,[0,]),
                                         (2,[0,]),
-                                        (3,[0,]),
-                                        (4,[0,]),
+                                        (3,[1,]),
+                                        (4,[0,2,]),
                                         (5,[0,2,]),
                                       ]
-            TurretWithOnlyOneSoldier = [1,2,]
+            TurretWithOnlyOneSoldier = []
         ),
 
         // LinkTeam
@@ -10499,24 +10501,24 @@ export Descriptor_ShowRoomUnit_HeimatschutzJager_RFA is TEntityDescriptor
         TInfantrySquadWeaponAssignmentModuleDescriptor
         (
             InitialTurretToSoldiersIndexMap = MAP[
-                                        (0,[1,2,3,4,5,6,7,8,9,10,]),
-                                        (1,[0,]),
-                                        (2,[10,]),
+                                        (0,[1,2,4,5,6,7,8,9,10,]),
+                                        (1,[0,3,]),
+                                        (2,[9,10,]),
                                       ]
             InitialSoldiersToTurretIndexMap = MAP[
                                         (0,[1,]),
                                         (1,[0,]),
                                         (2,[0,]),
-                                        (3,[0,]),
+                                        (3,[1,]),
                                         (4,[0,]),
                                         (5,[0,]),
                                         (6,[0,]),
                                         (7,[0,]),
                                         (8,[0,]),
-                                        (9,[0,]),
+                                        (9,[0,2,]),
                                         (10,[0,2,]),
                                       ]
-            TurretWithOnlyOneSoldier = [1,2,]
+            TurretWithOnlyOneSoldier = []
         ),
 
         // LinkTeam
@@ -11522,24 +11524,24 @@ export Descriptor_ShowRoomUnit_Jager_RFA is TEntityDescriptor
         TInfantrySquadWeaponAssignmentModuleDescriptor
         (
             InitialTurretToSoldiersIndexMap = MAP[
-                                        (0,[1,2,3,4,5,6,7,8,9,10,]),
-                                        (1,[0,]),
-                                        (2,[10,]),
+                                        (0,[1,2,4,5,6,7,8,9,10,]),
+                                        (1,[0,3,]),
+                                        (2,[9,10,]),
                                       ]
             InitialSoldiersToTurretIndexMap = MAP[
                                         (0,[1,]),
                                         (1,[0,]),
                                         (2,[0,]),
-                                        (3,[0,]),
+                                        (3,[1,]),
                                         (4,[0,]),
                                         (5,[0,]),
                                         (6,[0,]),
                                         (7,[0,]),
                                         (8,[0,]),
-                                        (9,[0,]),
+                                        (9,[0,2,]),
                                         (10,[0,2,]),
                                       ]
-            TurretWithOnlyOneSoldier = [1,2,]
+            TurretWithOnlyOneSoldier = []
         ),
 
         // LinkTeam
@@ -20857,23 +20859,22 @@ export Descriptor_ShowRoomUnit_Panzergrenadier_APC_RFA is TEntityDescriptor
         TInfantrySquadWeaponAssignmentModuleDescriptor
         (
             InitialTurretToSoldiersIndexMap = MAP[
-                                        (0,[1,2,3,4,5,6,7,8,]),
-                                        (1,[0,]),
-                                        (2,[8,]),
-                                        (3,[7,]),
+                                        (0,[2,3,4,5,6,7,8,]),
+                                        (1,[0,1,]),
+                                        (2,[7,8,]),
                                       ]
             InitialSoldiersToTurretIndexMap = MAP[
                                         (0,[1,]),
-                                        (1,[0,]),
+                                        (1,[1,]),
                                         (2,[0,]),
                                         (3,[0,]),
                                         (4,[0,]),
                                         (5,[0,]),
                                         (6,[0,]),
-                                        (7,[0,3,]),
+                                        (7,[0,2,]),
                                         (8,[0,2,]),
                                       ]
-            TurretWithOnlyOneSoldier = [1,]
+            TurretWithOnlyOneSoldier = []
         ),
 
         // LinkTeam

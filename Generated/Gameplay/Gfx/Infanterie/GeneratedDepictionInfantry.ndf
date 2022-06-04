@@ -1083,7 +1083,7 @@ AllWeaponAlternatives_Fallschirm_RFA is [
   AlternativeWithId( SelectorId = ['MeshAlternative_1'] ModelFile = ModelFile_G3A4 ),
   AlternativeWithId( SelectorId = ['MeshAlternative_2'] ModelFile = ModelFile_MG3 ),
   AlternativeWithId( SelectorId = ['MeshAlternative_3'] ModelFile = ModelFile_Panzerfaust_3 ),
-  AlternativeWithId( SelectorId = ['MeshAlternative_4'] ModelFile = ModelFile_Panzerfaust_3 ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_4'] ModelFile = ModelFile_Uzi ),
   AlternativeNone
 ]
 AllWeaponSubDepiction_Fallschirm_RFA is TemplateAllSubWeaponDepiction
@@ -1196,7 +1196,9 @@ Gfx_Fallschirmjager_CMD_RFA is TemplateInfantryDepictionSquad
 )
 Gfx_Fallschirmjager_CMD_RFA_Showroom is Gfx_Fallschirmjager_CMD_RFA
 AllWeaponAlternatives_Fallschirmjager_CMD_RFA is [
-  AlternativeWithId( SelectorId = ['MeshAlternative_1'] ModelFile = ModelFile_G3A4 ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_1'] ModelFile = ModelFile_Uzi ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_2'] ModelFile = ModelFile_G3A4 ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_3'] ModelFile = ModelFile_MG3 ),
   AlternativeNone
 ]
 AllWeaponSubDepiction_Fallschirmjager_CMD_RFA is TemplateAllSubWeaponDepiction
@@ -1209,6 +1211,18 @@ AllWeaponSubDepiction_Fallschirmjager_CMD_RFA is TemplateAllSubWeaponDepiction
       FireEffectTag = ["Fallschirmjager_CMD_RFA", "weapon_effet_tag1" ]
       Anchors = ["fx_tir"]
       WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["Fallschirmjager_CMD_RFA", "weapon_effet_tag2" ]
+      Anchors = ["fx_tir"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["Fallschirmjager_CMD_RFA", "weapon_effet_tag3" ]
+      Anchors = ["fx_tir"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
     ),
   ]
 )
@@ -1639,7 +1653,7 @@ Gfx_Fernspaher_RFA_Showroom is Gfx_Fernspaher_RFA
 AllWeaponAlternatives_Fernspaher_RFA is [
   AlternativeWithId( SelectorId = ['MeshAlternative_1'] ModelFile = ModelFile_MP5A3 ),
   AlternativeWithId( SelectorId = ['MeshAlternative_2'] ModelFile = ModelFile_HK21 ),
-  AlternativeWithId( SelectorId = ['MeshAlternative_3'] ModelFile = ModelFile_MainNue ),
+  AlternativeWithId( SelectorId = ['MeshAlternative_3'] ModelFile = ModelFile_Armbrust ),
   AlternativeNone
 ]
 AllWeaponSubDepiction_Fernspaher_RFA is TemplateAllSubWeaponDepiction
@@ -3408,7 +3422,7 @@ AllWeaponAlternatives_Panzergrenadier_APC_RFA is [
   AlternativeWithId( SelectorId = ['MeshAlternative_1'] ModelFile = ModelFile_G3A4 ),
   AlternativeWithId( SelectorId = ['MeshAlternative_2'] ModelFile = ModelFile_MG3 ),
   AlternativeWithId( SelectorId = ['MeshAlternative_3'] ModelFile = ModelFile_Panzerfaust_44 ),
-  AlternativeWithId( SelectorId = ['MeshAlternative_4'] ModelFile = ModelFile_Panzerfaust_44 ),
+  //AlternativeWithId( SelectorId = ['MeshAlternative_4'] ModelFile = ModelFile_Panzerfaust_44 ),
   AlternativeNone
 ]
 AllWeaponSubDepiction_Panzergrenadier_APC_RFA is TemplateAllSubWeaponDepiction
@@ -3434,12 +3448,12 @@ AllWeaponSubDepiction_Panzergrenadier_APC_RFA is TemplateAllSubWeaponDepiction
       Anchors = ["fx_tir"]
       WeaponShootDataPropertyName = "WeaponShootData_0_3"
     ),
-    DepictionOperator_WeaponInstantFireInfantry
-    (
-      FireEffectTag = ["Panzergrenadier_APC_RFA", "weapon_effet_tag4" ]
-      Anchors = ["fx_tir"]
-      WeaponShootDataPropertyName = "WeaponShootData_0_4"
-    ),
+    //DepictionOperator_WeaponInstantFireInfantry
+    //(
+    //  FireEffectTag = ["Panzergrenadier_APC_RFA", "weapon_effet_tag4" ]
+    //  Anchors = ["fx_tir"]
+    //  WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    //),
   ]
 )
 AllWeaponSubDepictionBackpack_Panzergrenadier_APC_RFA is TemplateAllSubBackpackWeaponDepiction
@@ -5109,6 +5123,8 @@ InfantryDistrictHappenings is MAP[
   ( ['Fallschirmjager_CMD_DDR', 'weapon_effet_tag1'], Weapon_Fallschirmjager_CMD_DDR_1_World ),
   ( ['Fallschirmjager_CMD_DDR', 'weapon_effet_tag2'], Weapon_Fallschirmjager_CMD_DDR_2_World ),
   ( ['Fallschirmjager_CMD_RFA', 'weapon_effet_tag1'], Weapon_Fallschirmjager_CMD_RFA_1_World ),
+  ( ['Fallschirmjager_CMD_RFA', 'weapon_effet_tag2'], Weapon_Fallschirmjager_CMD_RFA_2_World ),
+  ( ['Fallschirmjager_CMD_RFA', 'weapon_effet_tag3'], Weapon_Fallschirmjager_CMD_RFA_3_World ),
   ( ['Fallschirmjager_DDR', 'weapon_effet_tag1'], Weapon_Fallschirmjager_DDR_1_World ),
   ( ['Fallschirmjager_DDR', 'weapon_effet_tag2'], Weapon_Fallschirmjager_DDR_2_World ),
   ( ['Fallschirmjager_DDR', 'weapon_effet_tag3'], Weapon_Fallschirmjager_DDR_3_World ),
@@ -5209,7 +5225,7 @@ InfantryDistrictHappenings is MAP[
   ( ['Panzergrenadier_APC_RFA', 'weapon_effet_tag1'], Weapon_Panzergrenadier_APC_RFA_1_World ),
   ( ['Panzergrenadier_APC_RFA', 'weapon_effet_tag2'], Weapon_Panzergrenadier_APC_RFA_2_World ),
   ( ['Panzergrenadier_APC_RFA', 'weapon_effet_tag3'], Weapon_Panzergrenadier_APC_RFA_3_World ),
-  ( ['Panzergrenadier_APC_RFA', 'weapon_effet_tag4'], Weapon_Panzergrenadier_APC_RFA_4_World ),
+  //( ['Panzergrenadier_APC_RFA', 'weapon_effet_tag4'], Weapon_Panzergrenadier_APC_RFA_4_World ),
   ( ['Panzergrenadier_CMD_RFA', 'weapon_effet_tag1'], Weapon_Panzergrenadier_CMD_RFA_1_World ),
   ( ['Panzergrenadier_CMD_RFA', 'weapon_effet_tag2'], Weapon_Panzergrenadier_CMD_RFA_2_World ),
   ( ['Panzergrenadier_CMD_RFA', 'weapon_effet_tag3'], Weapon_Panzergrenadier_CMD_RFA_3_World ),

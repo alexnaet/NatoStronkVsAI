@@ -1538,12 +1538,12 @@ export MissileCarriage_F111F_Aardvark_US is TMissileCarriageConnoisseur
     MeshDescriptor = Modele_F111F_Aardvark_US
     PylonSet       = DepictionPylonSet_Airplane_Default
     WeaponInfos    = [
-        TMissileCarriageWeaponInfo //Bomb Mk82 250kg x12
+        TMissileCarriageWeaponInfo //GBU-10 LGB x 4 //Bomb Mk82 250kg x12
         (
             WeaponIndex = 2
             MissileType = eAGM
             MountingType = eMountingBomb
-            Count       = 4 * 2
+            Count       = 4 * 1
         ),
     ]
 )

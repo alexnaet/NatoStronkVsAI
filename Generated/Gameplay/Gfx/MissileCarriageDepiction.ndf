@@ -2402,14 +2402,14 @@ SubGenerators_F111F_Aardvark_US is [
                 Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_GBU10 PhysicalProperty = "Tourelle2_MissileCount" MissileNumber = 2 )),
             TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 4
                 Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_GBU10 PhysicalProperty = "Tourelle2_MissileCount" MissileNumber = 3 )),
-            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 5
-                Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_GBU10 PhysicalProperty = "Tourelle2_MissileCount" MissileNumber = 4 )),
-            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 6
-                Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_GBU10 PhysicalProperty = "Tourelle2_MissileCount" MissileNumber = 5 )),
-            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 7
-                Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_GBU10 PhysicalProperty = "Tourelle2_MissileCount" MissileNumber = 6 )),
-            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 8
-                Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_GBU10 PhysicalProperty = "Tourelle2_MissileCount" MissileNumber = 7 )),
+            //TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 5
+            //    Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_GBU10 PhysicalProperty = "Tourelle2_MissileCount" MissileNumber = 4 )),
+            //TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 6
+            //    Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_GBU10 PhysicalProperty = "Tourelle2_MissileCount" MissileNumber = 5 )),
+            //TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 7
+            //    Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_GBU10 PhysicalProperty = "Tourelle2_MissileCount" MissileNumber = 6 )),
+            //TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 8
+            //    Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_GBU10 PhysicalProperty = "Tourelle2_MissileCount" MissileNumber = 7 )),
             //TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 9
             //    Depiction = TemplateDepictionMissile( ProjectileModelFile = ModelFile_Missile_Mk82 PhysicalProperty = "Tourelle2_MissileCount" MissileNumber = 8 )),
             //TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 10
@@ -2435,14 +2435,14 @@ SubGenerators_Showroom_F111F_Aardvark_US is [
                 Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_GBU10 )),
             TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 4
                 Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_GBU10 )),
-            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 5
-                Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_GBU10 )),
-            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 6
-                Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_GBU10 )),
-            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 7
-                Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_GBU10 )),
-            TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 8
-                Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_GBU10 )),
+            //TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 5
+            //    Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_GBU10 )),
+            //TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 6
+            //    Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_GBU10 )),
+            //TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 7
+            //    Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_GBU10 )),
+            //TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 8
+            //    Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_GBU10 )),
             //TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 9
             //    Depiction = TemplateDepictionMissileShowroom( ProjectileModelFile = ModelFile_Missile_Mk82 )),
             //TMissileCarriageSubDepictionMissileInfo( WeaponIndex = 2 MissileIndex = 10

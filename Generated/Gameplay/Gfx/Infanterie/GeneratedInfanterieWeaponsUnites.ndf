@@ -816,17 +816,27 @@ Weapon_Fallschirm_RFA_3_FX is TCompositeHappening
 )
 Weapon_Fallschirm_RFA_3_World is TIntroduceMobileHappening( Happening = Weapon_Fallschirm_RFA_3_FX )
 
-Weapon_Fallschirm_RFA_4_FiringFXAll is fx_tir_LAW_1_2
-Weapon_Fallschirm_RFA_4_ProjectileFXAll is fx_traine_LAW_1_2_False_00_00
+Weapon_Fallschirm_RFA_4_FiringFXAll is fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_1_2
+Weapon_Fallschirm_RFA_4_ProjectileFXAll is TRandomHappening
+(
+    Alternatives = [
+    fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+    fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
+    fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
+    fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
+    ]
+)
 Weapon_Fallschirm_RFA_4_FX is TCompositeHappening
 (
     SubHappenings = [
         Weapon_Fallschirm_RFA_4_FiringFXAll,
         Weapon_Fallschirm_RFA_4_ProjectileFXAll,
-        SFXWeapon_RocketInf_PzF_3
+        SFXWeapon_PM_uzi
     ]
 )
 Weapon_Fallschirm_RFA_4_World is TIntroduceMobileHappening( Happening = Weapon_Fallschirm_RFA_4_FX )
+
+// SFXWeapon_PM_uzi
 
 Weapon_Fallschirmjager_CMD_DDR_1_FiringFXAll is fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_1_2
 Weapon_Fallschirmjager_CMD_DDR_1_ProjectileFXAll is TRandomHappening
@@ -879,6 +889,46 @@ Weapon_Fallschirmjager_CMD_RFA_1_FX is TCompositeHappening
     ]
 )
 Weapon_Fallschirmjager_CMD_RFA_1_World is TIntroduceMobileHappening( Happening = Weapon_Fallschirmjager_CMD_RFA_1_FX )
+
+Weapon_Fallschirmjager_CMD_RFA_2_FiringFXAll is fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_1_2
+Weapon_Fallschirmjager_CMD_RFA_2_ProjectileFXAll is TRandomHappening
+(
+    Alternatives = [
+    fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_1_2_False_00_00,
+    fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_1_2_False_00_00,
+    fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_1_2_False_00_00,
+    fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_1_2_False_00_00,
+    ]
+)
+Weapon_Fallschirmjager_CMD_RFA_2_FX is TCompositeHappening
+(
+    SubHappenings = [
+        Weapon_Fallschirmjager_CMD_RFA_2_FiringFXAll,
+        Weapon_Fallschirmjager_CMD_RFA_2_ProjectileFXAll,
+        SFXWeapon_FM_G3KA4
+    ]
+)
+Weapon_Fallschirmjager_CMD_RFA_2_World is TIntroduceMobileHappening( Happening = Weapon_Fallschirmjager_CMD_RFA_2_FX )
+
+Weapon_Fallschirmjager_CMD_RFA_3_FiringFXAll is fx_tir_mitrailleuse_M60_douilles_eject_1_2
+Weapon_Fallschirmjager_CMD_RFA_3_ProjectileFXAll is TRandomHappening
+(
+    Alternatives = [
+    fx_traine_M60_1_1_2_False_00_00,
+    fx_traine_M60_2_1_2_False_00_00,
+    fx_traine_M60_3_1_2_False_00_00,
+    fx_traine_M60_4_1_2_False_00_00,
+    ]
+)
+Weapon_Fallschirmjager_CMD_RFA_3_FX is TCompositeHappening
+(
+    SubHappenings = [
+        Weapon_Fallschirmjager_CMD_RFA_3_FiringFXAll,
+        Weapon_Fallschirmjager_CMD_RFA_3_ProjectileFXAll,
+        SFXWeapon_MMG_inf__MG3_7_62mm
+    ]
+)
+Weapon_Fallschirmjager_CMD_RFA_3_World is TIntroduceMobileHappening( Happening = Weapon_Fallschirm_RFA_2_FX )
 
 Weapon_Fallschirmjager_DDR_1_FiringFXAll is fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_1_2
 Weapon_Fallschirmjager_DDR_1_ProjectileFXAll is TRandomHappening
@@ -1222,8 +1272,17 @@ Weapon_Fernspaher_RFA_2_FX is TCompositeHappening
 )
 Weapon_Fernspaher_RFA_2_World is TIntroduceMobileHappening( Happening = Weapon_Fernspaher_RFA_2_FX )
 
-Weapon_Fernspaher_RFA_3_ProjectileFXAll is fx_traine_grenade_Panzerknacker_1_2_False_00_00
-Weapon_Fernspaher_RFA_3_FX is Weapon_Fernspaher_RFA_3_ProjectileFXAll
+Weapon_Fernspaher_RFA_3_FiringFXAll is fx_tir_LAW_1_2
+Weapon_Fernspaher_RFA_3_ProjectileFXAll is fx_traine_LAW_1_2_False_00_00
+Weapon_Fernspaher_RFA_3_FX is TCompositeHappening 
+(
+    SubHappenings = [
+        Weapon_Fernspaher_RFA_3_FiringFXAll,
+        Weapon_Fernspaher_RFA_3_ProjectileFXAll,
+        SFXWeapon_RocketInf_Armbrust
+    ]
+)
+
 Weapon_Fernspaher_RFA_3_World is TIntroduceMobileHappening( Happening = Weapon_Fernspaher_RFA_3_FX )
 
 Weapon_FireSupport_SOV_1_FiringFXAll is fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_1_2
@@ -2563,18 +2622,6 @@ Weapon_Panzergrenadier_APC_RFA_3_FX is TCompositeHappening
     ]
 )
 Weapon_Panzergrenadier_APC_RFA_3_World is TIntroduceMobileHappening( Happening = Weapon_Panzergrenadier_APC_RFA_3_FX )
-
-Weapon_Panzergrenadier_APC_RFA_4_FiringFXAll is fx_tir_LAW_1_2
-Weapon_Panzergrenadier_APC_RFA_4_ProjectileFXAll is fx_traine_LAW_1_2_False_00_00
-Weapon_Panzergrenadier_APC_RFA_4_FX is TCompositeHappening
-(
-    SubHappenings = [
-        Weapon_Panzergrenadier_APC_RFA_3_FiringFXAll,
-        Weapon_Panzergrenadier_APC_RFA_3_ProjectileFXAll,
-        SFXWeapon_RocketInf_PzF_44
-    ]
-)
-Weapon_Panzergrenadier_APC_RFA_4_World is TIntroduceMobileHappening( Happening = Weapon_Panzergrenadier_APC_RFA_4_FX )
 
 Weapon_Panzergrenadier_CMD_RFA_1_FiringFXAll is fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_1_2
 Weapon_Panzergrenadier_CMD_RFA_1_ProjectileFXAll is TRandomHappening
